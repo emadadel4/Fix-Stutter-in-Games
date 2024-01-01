@@ -15,5 +15,4 @@ RENAME "C:\Windows\System32\Windows.Gaming.UI.GameBar.dll" Windows.Gaming.UI.Gam
 
 
 echo Telgram: https://t.me/emadadel4
-echo Watsapp: 01153377584
 pause
