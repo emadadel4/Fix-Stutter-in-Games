@@ -3,4 +3,4 @@ This bat file do Rename those files
 Users found "Gamebar Services" makes game shuttering You can browse bat file to see what inside it. Enjoy Gamer
 
 Note!
-If you command SFC /SCANNOW the files will return to default it name, you will need to run bat file once again
+If you run command sfc /SCANNOW the files will return to default it name, you will need to run bat file once again
