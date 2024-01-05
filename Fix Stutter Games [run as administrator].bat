@@ -7,7 +7,7 @@ ICACLS "C:\Windows\System32\Windows.Gaming.UI.GameBar.dll" /grant administrators
 
 
 
-timeout /t 3
+timeout /t 2
 
 RENAME "C:\Windows\System32\GameBarPresenceWriter.proxy.dll" GameBarPresenceWriter.proxy[emadadel4].bak
 
