@@ -6,8 +6,11 @@ ICACLS "C:\Windows\System32\GameBarPresenceWriter.proxy.dll" /grant administrato
 ICACLS "C:\Windows\System32\Windows.Gaming.UI.GameBar.dll" /grant administrators:F
 
 
+echo Loading...
 
-timeout /t 2
+
+timeout /T 3 /NOBREAK > nul
+
 
 RENAME "C:\Windows\System32\GameBarPresenceWriter.proxy.dll" GameBarPresenceWriter.proxy[emadadel4].bak
 
@@ -16,5 +19,14 @@ RENAME "C:\Windows\System32\GameBarPresenceWriter.exe" GameBarPresenceWriter[ema
 RENAME "C:\Windows\System32\Windows.Gaming.UI.GameBar.dll" Windows.Gaming.UI.GameBar[emadadel4].bak
 
 
+timeout /T 0 /NOBREAK > nul
+cls
+
+echo Issue fixed successfully, Enjoy Playing smooth.
+echo Vist my github to see useful Tools.
+
+echo My Website https://eprojects.orgfree.com/
+echo My Github https://github.com/emadadel4
 echo Telgram: https://t.me/emadadel4
-pause
+
+timeout /T 35
