@@ -1,5 +1,9 @@
 @echo off
 
+takeown /f "C:\Windows\System32\GameBarPresenceWriter.exe" /grant 
+takeown /f "C:\Windows\System32\GameBarPresenceWriter.proxy.dll"
+takeown /f "C:\Windows\System32\Windows.Gaming.UI.GameBar.dll"
+
 
 ICACLS "C:\Windows\System32\GameBarPresenceWriter.exe" /grant administrators:F
 ICACLS "C:\Windows\System32\GameBarPresenceWriter.proxy.dll" /grant administrators:F
