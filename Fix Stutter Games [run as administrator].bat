@@ -1,6 +1,6 @@
 @echo off
 
-takeown /f "C:\Windows\System32\GameBarPresenceWriter.exe" /grant 
+takeown /f "C:\Windows\System32\GameBarPresenceWriter.exe"
 takeown /f "C:\Windows\System32\GameBarPresenceWriter.proxy.dll"
 takeown /f "C:\Windows\System32\Windows.Gaming.UI.GameBar.dll"
 
