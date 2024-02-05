@@ -11,7 +11,6 @@ This bat file do Rename those files
 
 
 <h1>Note!</h1>
-
 If you run command sfc /SCANNOW the files will return to default it name, you will need to run bat file once again
 <h1></h1>
 
