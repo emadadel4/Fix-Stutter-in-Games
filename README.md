@@ -6,9 +6,13 @@ This bat file do Rename those files
 <h1>PowerShell run as administrator (Recommended) </h1>
 <li>On Windows 10/11, right-click on the Windows start menu and select PowerShell or Terminal (Not CMD).</li>
 <li>Copy-paste the below code and press enter</li>
-<h3>Enjoy Gamer<h3>
+
 <code> irm https://raw.githubusercontent.com/emadadel4/Fix-Stutter-in-Games/main/FixStutter | iex</code></li>
 
 
-Note!
+<h1>Note!</h1>
+
 If you run command sfc /SCANNOW the files will return to default it name, you will need to run bat file once again
+<h1></h1>
+
+<h1>Enjoy Gamer 🎮</h1>
