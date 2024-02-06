@@ -12,7 +12,7 @@
 <h1></h1>
 <h3>What this bat file do?</h3>
 <h4>Gamers found (Gamebar Services) makes running game shuttering</h4>
-<h4>This bat file do Rename those files
+<h4>This bat file do Rename following files
 (GameBarPresenceWriter.exe & GameBarPresenceWriter.proxy.dll.bak & Windows.Gaming.UI.GameBar) in C:\Windows\System32.</h4>
 <h1></h1>
 
