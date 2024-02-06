@@ -16,7 +16,7 @@
 <h1></h1>
 
 <h4>Note!</h4>
-<h3>If you run command sfc /SCANNOW the files will return to default it name, you will need to run bat file once again</h3>
+<h3>If you run command sfc /SCANNOW the files will return to default it name, you will need to run script once again</h3>
 <h1></h1>
 
 <h4>Enjoy Gamer 🎮</h4>
