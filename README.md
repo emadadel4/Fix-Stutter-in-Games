@@ -6,6 +6,7 @@
 <li>Copy-paste the below code and press enter</li>
 
 <li><code> irm https://raw.githubusercontent.com/emadadel4/Fix-Stutter-in-Games/main/fix.ps1 | iex </code></li>
+<li>That's all.</li>
 
 
 <h1></h1>
