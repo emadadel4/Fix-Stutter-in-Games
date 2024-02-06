@@ -5,7 +5,7 @@
 <li>On Windows 10/11, right-click on the Windows start menu and select PowerShell or Terminal (Not CMD).</li>
 <li>Copy-paste the below code and press enter</li>
 
-<code> irm https://raw.githubusercontent.com/emadadel4/Fix-Stutter-in-Games/main/fix.ps1 | iex </code>
+<li><code> irm https://raw.githubusercontent.com/emadadel4/Fix-Stutter-in-Games/main/fix.ps1 | iex </code></li>
 
 
 <h1></h1>
