@@ -4,10 +4,8 @@
 <h1>PowerShell run as administrator (Recommended) </h1>
 <li>On Windows 10/11, right-click on the Windows start menu and select PowerShell or Terminal (Not CMD).</li>
 <li>Copy-paste the below code and press enter</li>
-
-<li><code> irm https://raw.githubusercontent.com/emadadel4/Fix-Stutter-in-Games/main/fix.ps1 | iex </code></li>
+<pre class="notranslate"><code>irm https://raw.githubusercontent.com/emadadel4/Fix-Stutter-in-Games/main/fix.ps1 | iex </code></pre>
 <li>That's all.</li>
-
 
 <h1></h1>
 
