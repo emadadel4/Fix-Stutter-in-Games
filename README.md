@@ -4,10 +4,10 @@
 <h1>PowerShell run as administrator (Recommended) </h1>
 <li>On Windows 10/11, right-click on the Windows start menu and select PowerShell or Terminal (Not CMD).</li>
 <li>Copy-paste the below code and press enter</li>
-<pre class="notranslate"><code>irm https://raw.githubusercontent.com/emadadel4/Fix-Stutter-in-Games/main/fix.ps1 | iex </code></pre>
-<li>That's all.</li>
 
-<h1></h1>
+```sh
+irm https://raw.githubusercontent.com/emadadel4/Fix-Stutter-in-Games/main/fix.ps1 | iex 
+```
 
 <h3>What this bat file do?</h3>
 <h5>Gamers found (Gamebar Services) makes running game shuttering</h5>
