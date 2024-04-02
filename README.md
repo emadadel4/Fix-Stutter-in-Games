@@ -13,7 +13,9 @@
 <h5>Gamers found (Gamebar Services) makes running game shuttering</h5>
 <h5>This bat file do Rename following files "GameBarPresenceWriter.exe", "GameBarPresenceWriter.proxy.dll.bak" , "Windows.Gaming.UI.GameBar" in <code>C:\Windows\System32</code></h5>
 
-<h1></h1>
+<center>
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/emadadel4/Fix-Stutter-in-Games/blob/main/demo.PNG"><img src="https://github.com/emadadel4/Fix-Stutter-in-Games/blob/main/demo.PNG" alt="screen-install" style="max-width: 100%;"></a>
+</center>
 
 <h4>Note!</h4>
 <h3>If you run command sfc /SCANNOW the files will return to default it name, you will need to run script once again</h3>
