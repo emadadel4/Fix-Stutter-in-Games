@@ -27,9 +27,6 @@ foreach ($file in $files) {
     {
         Clear-Host
         Write-Host "The issue has already been fixed :)"
-        Write-Host "Visit my GitHub for more useful tools: https://github.com/emadadel4"
-        Write-Host "My Website: https://eprojects.orgfree.com"
-        Write-Host "Telegram: https://t.me/emadadel4"
     }
 }
 
