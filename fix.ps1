@@ -1,29 +1,29 @@
-takeown /f "C:\Windows\System32\GameBarPresenceWriter.exe"
-takeown /f "C:\Windows\System32\GameBarPresenceWriter.proxy.dll"
-takeown /f "C:\Windows\System32\Windows.Gaming.UI.GameBar.dll"
+$files = @(
+    "C:\Windows\System32\GameBarPresenceWriter.exe",
+    "C:\Windows\System32\GameBarPresenceWriter.proxy.dll",
+    "C:\Windows\System32\Windows.Gaming.UI.GameBar.dll"
+)
 
+foreach ($file in $files) {
+    if (Test-Path $file) {
+        Write-Host "File $file exists."
+        # Actions to perform if the file exists
+        ICACLS $file /grant administrators:F
+        timeout /T 2 /NOBREAK > $null
+        takeown /f $file
+        $newName = "$file[emadadel4].bak"
+        Rename-Item $file $newName
+    }
+    else
+    {
+        Clear-Host
+        Write-Host "The issue has already been resolved :)"
+    }
+}
 
-timeout /T 2 /NOBREAK > null
+timeout /T 3 /NOBREAK > $null
 
-
-ICACLS "C:\Windows\System32\GameBarPresenceWriter.exe" /grant administrators:F
-ICACLS "C:\Windows\System32\GameBarPresenceWriter.proxy.dll" /grant administrators:F
-ICACLS "C:\Windows\System32\Windows.Gaming.UI.GameBar.dll" /grant administrators:F
-
-
-Rename-Item "C:\Windows\System32\GameBarPresenceWriter.proxy.dll" GameBarPresenceWriter.proxy[emadadel4].bak
-
-Rename-Item "C:\Windows\System32\GameBarPresenceWriter.exe" GameBarPresenceWriter[emadadel4].bak
-
-Rename-Item "C:\Windows\System32\Windows.Gaming.UI.GameBar.dll" Windows.Gaming.UI.GameBar[emadadel4].bak
-
-timeout /T 3 /NOBREAK > null
-
-Write-Host "Renaming files,Wait..."
-
-Write-Host "Issue fixed successfully, Enjoy Playing smooth."
-Write-Host "Vist my github to see useful Tools."
-
-Write-Host "My Website https://eprojects.orgfree.com"
-Write-Host "My Github https://github.com/emadadel4"
-Write-Host "Telgram: https://t.me/emadadel4"
+Write-Host "Issue fixed successfully. Enjoy smooth gaming experience!"
+Write-Host "Visit my GitHub for more useful tools: https://github.com/emadadel4"
+Write-Host "My Website: https://eprojects.orgfree.com"
+Write-Host "Telegram: https://t.me/emadadel4"
