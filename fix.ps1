@@ -17,7 +17,7 @@ foreach ($file in $files) {
     else
     {
         Clear-Host
-        Write-Host "The issue has already been resolved :)"
+        Write-Host "The issue has already been fixed :)"
     }
 }
 
