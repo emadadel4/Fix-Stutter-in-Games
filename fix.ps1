@@ -14,14 +14,6 @@ foreach ($file in $files) {
         takeown /f $file
         $newName = "$file[emadadel4].bak"
         Rename-Item $file $newName
-
-        timeout /T 2 /NOBREAK > $null
-
-        Write-Host "Issue fixed successfully. Enjoy smooth gaming experience!"
-        Write-Host "Visit my GitHub for more useful tools: https://github.com/emadadel4"
-        Write-Host "My Website: https://eprojects.orgfree.com"
-        Write-Host "Telegram: https://t.me/emadadel4"
-
     }
     else
     {
@@ -30,4 +22,9 @@ foreach ($file in $files) {
     }
 }
 
+timeout /T 2 /NOBREAK > $null
+Write-Host "Issue fixed successfully. Enjoy smooth gaming experience!"
+Write-Host "Visit my GitHub for more useful tools: https://github.com/emadadel4"
+Write-Host "My Website: https://eprojects.orgfree.com"
+Write-Host "Telegram: https://t.me/emadadel4"
 
