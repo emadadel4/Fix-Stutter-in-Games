@@ -9,11 +9,9 @@ foreach ($file in $files) {
     if (Test-Path $file)
     {
         $result = $file
-        Write-Host "File $file exists."
-        # Actions to perform if the file exists
+        takeown /f $file
         ICACLS $file /grant administrators:F
         timeout /T 2 /NOBREAK > $null
-        takeown /f $file
         $newName = "$file[emadadel4].bak"
         Rename-Item $file $newName
     }
