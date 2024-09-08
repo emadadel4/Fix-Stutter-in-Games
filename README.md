@@ -34,5 +34,5 @@ irm https://raw.githubusercontent.com/emadadel4/Fix-Stutter-in-Games/main/fix.ps
 
 ## Try my new tool
 
-- IT Tools: [ITT](https://github.com/emadadel4/ITT)
+- Install Tweak Tool: [ITT](https://github.com/emadadel4/ITT)
 
