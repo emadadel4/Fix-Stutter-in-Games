@@ -25,10 +25,7 @@ foreach ($file in $files) {
 timeout /T 2 /NOBREAK > $null
 if($result)
 {
-    Write-Host "Issue fixed successfully. Enjoy smooth gaming experience!"
-    Write-Host "Visit my GitHub for more useful tools: https://github.com/emadadel4"
-    Write-Host "My Website: https://emadadel4.github.io/"
-    Write-Host "Telegram: https://t.me/emadadel4"
+    Write-Host "Successfully fixed. Enjoy a smooth gaming experience!"
 }
 
 
